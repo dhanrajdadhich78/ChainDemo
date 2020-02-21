@@ -1,7 +1,7 @@
 version: '2'
 services:
-  blockchain-demo:
+  ChainDemo:
     build: .
-    image: blockchain-demo:latest
+    image: ChainDemo:latest
     ports:
       - "3000:3000"
